@@ -20,18 +20,15 @@
 
 
 .fa-ellipsis-vertical {
-  margin-top: 17px;
+  margin: auto 0;
 }
 
 
 .whole-post{
-    width: 30%;
+    width: 40%;
     background-color: lightskyblue;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 8%;
+    margin: 8% auto 0 auto;
     border: 1px solid black;
-
 }
 
 
@@ -48,6 +45,10 @@
   display: flex;
   justify-content: space-between; /* Take my children (icon-left, icon-right) and push them apart. (children of icon-bar*/
   align-items: center;
-  width: 100%; 
+  margin-top: 5px;
+  padding: 3px;
 }
 
+.body-text{
+    padding:0 5px; 
+}
